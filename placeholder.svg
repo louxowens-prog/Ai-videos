@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="AI Videos placeholder image">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="260" cy="240" r="180" fill="url(#accent)" opacity="0.18"/>
+  <circle cx="920" cy="540" r="220" fill="#60a5fa" opacity="0.18"/>
+
+  <g transform="translate(120 170)">
+    <rect x="0" y="0" width="960" height="460" rx="26" fill="#0b1120" opacity="0.75" stroke="#334155"/>
+
+    <rect x="70" y="120" width="240" height="180" rx="18" fill="url(#accent)" opacity="0.9"/>
+    <path d="M160 170 L220 205 L160 240 Z" fill="#f8fafc" opacity="0.95"/>
+
+    <rect x="360" y="130" width="270" height="26" rx="13" fill="#e2e8f0" opacity="0.9"/>
+    <rect x="360" y="178" width="390" height="18" rx="9" fill="#94a3b8" opacity="0.8"/>
+    <rect x="360" y="216" width="420" height="18" rx="9" fill="#94a3b8" opacity="0.7"/>
+    <rect x="360" y="254" width="320" height="18" rx="9" fill="#94a3b8" opacity="0.6"/>
+
+    <rect x="70" y="340" width="720" height="70" rx="16" fill="#111827" stroke="#475569"/>
+    <circle cx="110" cy="375" r="13" fill="#22d3ee"/>
+    <rect x="140" y="365" width="180" height="18" rx="9" fill="#cbd5e1"/>
+    <rect x="350" y="365" width="200" height="18" rx="9" fill="#94a3b8"/>
+    <rect x="590" y="365" width="150" height="18" rx="9" fill="#94a3b8"/>
+  </g>
+
+  <text x="600" y="678" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" fill="#f8fafc">AI Videos</text>
+  <text x="600" y="728" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#cbd5e1">placeholder image</text>
+</svg>
